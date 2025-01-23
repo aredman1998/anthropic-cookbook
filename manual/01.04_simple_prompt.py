@@ -26,7 +26,7 @@ message_list = [
 message = client.messages.create(
 
     # Set the model type you want to use 
-    model       = "claude-3-5-sonnet-20241022",
+    model       = "claude-3-5-sonnet-latest",
 
     # Set the maximum number of output tokens to 1024. Token's are the smallest unit of text in a language model.
     # They can be a word, half a word, or even a single character.
